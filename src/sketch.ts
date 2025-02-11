@@ -1,6 +1,6 @@
-import { Decoder } from "./decoder"
-import { RandomMapping } from "./mapping"
-import { CodedSymbol, HashedSymbol, Symbol } from "./symbol"
+import { Decoder } from "./decoder.ts"
+import { RandomMapping } from "./mapping.ts"
+import { CodedSymbol, HashedSymbol, Symbol } from "./symbol.ts"
 
 // Sketch is a prefix of the coded symbol sequence for a set of source symbols.
 export class Sketch<T extends Symbol<T>> {

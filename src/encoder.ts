@@ -1,5 +1,5 @@
-import { RandomMapping } from "./mapping"
-import { CodedSymbol, HashedSymbol, Symbol } from "./symbol"
+import { RandomMapping } from "./mapping.ts"
+import { CodedSymbol, HashedSymbol, Symbol } from "./symbol.ts"
 
 // symbolMapping is a mapping from a source symbol to a coded symbol. The
 // symbols are identified by their indices in CodingWindow.

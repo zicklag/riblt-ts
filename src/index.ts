@@ -1,5 +1,5 @@
-import { Encoder } from "../src/encoder";
-import { Decoder } from "../src/decoder";
+import { Encoder } from "./encoder.ts";
+import { Decoder } from "./decoder.ts";
 
 // re-export encoder & decoder
 export {
